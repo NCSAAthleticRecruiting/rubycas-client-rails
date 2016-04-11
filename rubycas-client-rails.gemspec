@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name = %q{rubycas-client-rails}
-  s.version = "0.1.0"
+  s.version = "0.1.0.NCSA"
 
   s.authors = ["Matt Zukowski"]
   s.date = %q{2011-08-13}
@@ -11,6 +11,7 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{rubycas-client}
+  s.summary = "NCSA version of rubycas-client-rails for HS RMS"
 
   s.add_dependency('rails', '>= 3.0.0')
   s.add_dependency('rubycas-client', '>= 2.2.0')
